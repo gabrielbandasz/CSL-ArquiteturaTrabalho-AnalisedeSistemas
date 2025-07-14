@@ -59,7 +59,7 @@ A documentação completa do projeto, com descrição técnica, decisões de des
 
 - **HTML5**
 - **CSS3** (Flexbox e Grid Layout)
-- **JavaScript Vanilla** (manipulação da DOM, eventos)
+- **JavaScript** (manipulação da DOM, eventos)
 - **Media Queries** para responsividade
 - **Font Awesome** para ícones
 - **WhatsApp Web API**
