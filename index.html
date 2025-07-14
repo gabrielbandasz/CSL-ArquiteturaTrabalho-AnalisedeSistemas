@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Arquitetônico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* WhatsApp Button Styles */
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="img/real-estate_18164498.png" alt="Logotipo Arquitetura Moderna em letras cinza" />
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfólio</a>
+        </nav>
+    </header>
+
+    <!-- Home/Landing Page -->
+    <section id="home" class="landing">
+        <div class="landing-background">
+            <img src="img/7547.jpg" />
+        </div>
+        <div class="landing-overlay"></div>
+        <div class="landing-content">
+            <h1>Arquitetura Transformadora</h1>
+            <p>Somos um estúdio de arquitetura dedicado a criar espaços que inspiram e melhoram a qualidade de vida. Nosso portfólio representa mais de 15 anos de projetos inovadores que respeitam o meio ambiente e atendem às necessidades dos nossos clientes.</p>
+        </div>
+    </section>
+
+<section class="carousel-section">
+  <h2 class="carousel-title">Destaques Arquitetônicos</h2>
+  <div class="carousel">
+    <button class="carousel-btn prev">&#10094;</button>
+    <div class="carousel-track-container">
+      <ul class="carousel-track">
+        <li class="carousel-slide"><img src="img/escada-bacana-com-luzes-em-um-edificio-moderno.jpg" alt="Imagem 1"></li>
+        <li class="carousel-slide"><img src="img/2151918260.jpg" alt="Imagem 2"></li>
+        <li class="carousel-slide"><img src="img/910.jpg" alt="Imagem 3"></li>
+         <li class="carousel-slide"><img src="img/2224.jpg" alt="Imagem 4"></li>
+      </ul>
+    </div>
+    <button class="carousel-btn next">&#10095;</button>
+  </div>
+</section>
+    
+
+    <!-- Portfolio Page -->
+    <section id="portfolio" class="portfolio">
+        <h2>Nossos Projetos</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/renderizacao-3d-modelo-de-casa.jpg" alt="Residência moderna com grandes janelas e estrutura em concreto aparente" data-full="https://placehold.co/1200x800" />
+                </div>
+                <div class="project-info">
+                    <h3>Residência Ipanema</h3>
+                    <p>Casa familiar com integração total entre espaços internos e externos, privilegiando a vista para o mar.</p>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/1686.jpg" alt="Edifício corporativo com fachada vidrada e jardins verticais" data-full="https://placehold.co/1200x800" />
+                </div>
+                <div class="project-info">
+                    <h3>Torre Comercial SP</h3>
+                    <p>Sede corporativa projetada para otimizar fluxos de trabalho com máxima eficiência energética.</p>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/2149065009.jpg" alt="Centro cultural com estrutura orgânica e espaços de convivência" data-full="https://placehold.co/1200x800" />
+                </div>
+                <div class="project-info">
+                    <h3>Centro Cultural BH</h3>
+                    <p>Espaço público que integra arte, educação e lazer através de sua arquitetura acessível e acolhedora.</p>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/14354.jpg" alt="Restaurante à beira-mar com decks de madeira e iluminação suave" data-full="https://placehold.co/1200x800" />
+                </div>
+                <div class="project-info">
+                    <h3>Restaurante Costeiro</h3>
+                    <p>Ambiente gastronômico que celebra a culinária local com vistas panorâmicas do oceano.</p>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/2576.jpg" alt="Complexo hoteleiro com piscinas infinitas e design tropical" data-full="https://placehold.co/1200x800" />
+                </div>
+                <div class="project-info">
+                    <h3>Hotel Praia do Forte</h3>
+                    <p>Refúgio de luxo que combina conforto moderno com elementos da arquitetura vernacular.</p>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/2170.jpg" alt="Condomínio residencial com jardins comunitários e espaços compartilhados" data-full="https://placehold.co/1200x800" />
+                </div>
+                <div class="project-info">
+                    <h3>Condomínio Verde</h3>
+                    <p>Conceito de moradia coletiva que prioriza sustentabilidade e interação social.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    
+<footer>
+  <div class="footer-container">
+    <div class="footer-info">
+      <h3>Studio de Arquitetura Moderna</h3>
+      <p>Projetando espaços que inspiram e transformam.</p>
+      <div class="contact-details">
+        <p><i class="fas fa-phone"></i> (21) 99999-9999</p>
+        <p><i class="fas fa-envelope"></i> contato@arquiteturamoderna.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Rua Exemplo, 123 - Rio de Janeiro, RJ</p>
+      </div>
+      <div class="social-links">
+        <a href="#" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-form">
+      <h3>Fale Conosco</h3>
+      <form id="footerContactForm">
+        <input type="text" name="name" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu email" required>
+        <textarea name="message" rows="4" placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar Mensagem</button>
+      </form>
+      <p class="form-feedback" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Studio de Arquitetura Moderna. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+
+
+
+
+
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="expandedImage">
+    </div>
+
+    <script src="script.js"></script>
+    
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/" class="whatsapp-button" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+     
+</body>
+</html>
