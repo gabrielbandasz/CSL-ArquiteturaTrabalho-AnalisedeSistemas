@@ -57,8 +57,8 @@ A documentação completa do projeto, com descrição técnica, decisões de des
 
 ## 🧑‍💻 Tecnologias Utilizadas
 
-- **HTML5**
-- **CSS3** (Flexbox e Grid Layout)
+- **HTML**
+- **CSS** (Flexbox e Grid Layout)
 - **JavaScript** (manipulação da DOM, eventos)
 - **Media Queries** para responsividade
 - **Font Awesome** para ícones
