@@ -1,75 +1,73 @@
 # 🏛️ Portfólio Arquitetônico
 
-Projeto desenvolvido durante o curso de **Programação Web I**.  
-O objetivo foi aplicar conceitos de HTML, CSS e JavaScript para desenvolver uma **landing page responsiva** com portfólio visual e interações dinâmicas com a DOM.
-
-Este projeto simula o portfólio de um estúdio de arquitetura, com visual profissional e elegante, pensado para atrair novos clientes e exibir projetos já realizados.
+Projeto desenvolvido durante o curso de **Programação Web I**, com o objetivo de aplicar conceitos de **HTML**, **CSS** e **JavaScript** na criação de uma **landing page responsiva**. A proposta simula o site de um estúdio de arquitetura, com foco em **apresentar projetos de forma visualmente atraente** e facilitar o contato com potenciais clientes.
 
 ---
 
 ## 📁 Estrutura do Projeto
 
+```
 📦 portfolio-arquitetura/
 ├── index.html
 ├── style.css
 ├── script.js
 ├── /img
-│ ├── 14354.jpg
-│ ├── 1686.jpg
-│ ├── 2149065009.jpg
-│ ├── 2170.jpg
-│ ├── 2576.jpg
-│ ├── 7547.jpg
-│ └── renderizacao-3d-modelo-de-casa.jpg
-│ └── real-estate_18164498.png
+│   ├── 14354.jpg
+│   ├── 1686.jpg
+│   ├── 2149065009.jpg
+│   ├── 2170.jpg
+│   ├── 2576.jpg
+│   ├── 7547.jpg
+│   ├── renderizacao-3d-modelo-de-casa.jpg
+│   └── real-estate_18164498.png
 └── README.md
+```
 
 ---
 
 ## ✅ Funcionalidades
 
-- [x] Página inicial com imagem de fundo e descrição da empresa
-- [x] Grade de projetos com estilo em **grid responsivo**
-- [x] Modal interativa para ampliar imagens de projetos
-- [x] Botão fixo de **WhatsApp** flutuante
-- [x] Rodapé com informações de contato e redes sociais
-- [x] Design responsivo para mobile, tablet e desktop
+- [x] Página inicial com imagem de fundo e apresentação do estúdio
+- [x] Seção de projetos em **grid responsivo**
+- [x] Modal interativa para ampliar imagens dos projetos
+- [x] Botão flutuante para contato via **WhatsApp**
+- [x] Rodapé com dados de contato e redes sociais
+- [x] Design responsivo adaptado para mobile, tablet e desktop
 
 ---
 
-📸 Capturas de Tela
-![Captura de tela 2025-07-07 172349](https://github.com/user-attachments/assets/8b5e7784-1a87-487d-b7f7-c064d88b5fc6)
-![Captura de tela 2025-07-07 172423](https://github.com/user-attachments/assets/6841b38e-936f-49ab-b8d1-d9c79a4b4eab)
+## 📸 Capturas de Tela
+
+![Página Inicial](https://github.com/user-attachments/assets/8b5e7784-1a87-487d-b7f7-c064d88b5fc6)  
+*🏙️ Página Inicial*
+
+![Portfólio de Projetos](https://github.com/user-attachments/assets/0b6de60e-81b7-4e8b-8a7b-bab6b7c7927b)  
+*🧱 Seção de Portfólio*
+
+---
+
+## 📄 Documentação
+
+A documentação completa do projeto, com descrição técnica, decisões de design e funcionalidades implementadas, pode ser acessada no link abaixo:
+
+👉 [Acessar Documentação do Projeto](https://docs.google.com/document/d/1z2D10wIQ4NTwCRLQjUMpyF9yUP7_dcEBd_tCQpnRAPQ/edit?usp=sharing)
+
+---
 
 
-🏙️ Página Inicial
+## 🧑‍💻 Tecnologias Utilizadas
 
-🧱 Seção de Portfólio
+- **HTML5**
+- **CSS3** (Flexbox e Grid Layout)
+- **JavaScript Vanilla** (manipulação da DOM, eventos)
+- **Media Queries** para responsividade
+- **Font Awesome** para ícones
+- **WhatsApp Web API**
 
-🛠️ Melhorias Futuras
- Criar uma página "Sobre nós" com biografia da equipe
+---
 
- Adicionar formulário de contato funcional (HTML + JS)
+## 👨‍🎓 Autores
 
- Implementar salvamento de preferências com localStorage
-
- Traduzir o site para versão multilíngue (pt-BR / en-US)
-
- Adicionar carregamento dinâmico de projetos via JSON
-
-🧑‍🎓 Tecnologias Utilizadas
-HTML5
-
-CSS3 (Flexbox e Grid)
-
-JavaScript Vanilla (DOM, eventos)
-
-Responsividade com media queries
-
-Font Awesome para ícones
-
-WhatsApp Web API
-
-👨‍💻 Autores
-Pedro Flores, Gabriel Bandasz, Gabriel Sandes
-Projeto acadêmico para a disciplina de Analise De Sistemas
+Desenvolvido por:  
+**Pedro Flores**, **Gabriel Bandasz**, **Gabriel Sandes**, **Lucas Matheus**  
+Projeto acadêmico da disciplina de **Análise de Sistemas**.
